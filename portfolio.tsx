@@ -449,7 +449,7 @@ export default function Component() {
                     {yearProjects.map((project, index) => (
                       <Card
                         key={project.id}
-                        className={`group relative overflow-hidden transition-all duration-500 transform hover:-translate-y-4 hover:rotate-1 hover:scale-105 cursor-pointer bg-gradient-to-br from-gray-900/40 to-black/40 backdrop-blur-sm animate-fade-in ${
+                        className={`group relative overflow-hidden transition-all duration-500 transform hover:-translate-y-4 hover:rotate-1 hover:scale-105 cursor-pointer bg-gradient-to-br from-black/90 to-gray-900/90 backdrop-blur-sm animate-fade-in ${
                           project.featured
                             ? "border-2 border-red-500 shadow-red-500/20 shadow-xl hover:shadow-red-500/40 hover:shadow-2xl"
                             : "border-2 border-gray-700 hover:border-red-500 hover:shadow-lg hover:shadow-red-500/20"
